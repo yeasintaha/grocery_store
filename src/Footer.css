@@ -1,0 +1,19 @@
+.footer{
+    min-height: 150px;
+    margin-top: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,rgba(2, 44, 15, 0.89),rgba(5, 51, 18, 0.918));
+    color: whitesmoke;
+}
+
+.mobile__number ,.email,.facebook{
+    display: flex;
+    padding: 4px;
+}
+.mobile__number h3, .email h3, .facebook h3{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight:500 ;
+}

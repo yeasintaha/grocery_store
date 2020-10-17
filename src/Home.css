@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  min-height: 100vh !important;
+}
+
+.home__row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.home__image {
+  width: 90% !important;
+  height: 100vh;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
